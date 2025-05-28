@@ -1,4 +1,6 @@
 import React from "react";
+import Edit from "../img/edit.png";
+import Delete from "../img/delete.png";
 
 const Single = () => {
   return (
@@ -11,6 +13,13 @@ const Single = () => {
         <div className="info">
           <span>Jenny</span>
           <p>posted 2 days ago</p>
+        </div>
+        <div className="edit">
+          <Link to={`/write?edit=2`}>
+            <img src={Edit} alt="" />
+          </Link>
+
+          <img src={Delete} alt="" />
         </div>
       </div>
       <div className="menu">m</div>
