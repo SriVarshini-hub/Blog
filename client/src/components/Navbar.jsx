@@ -10,23 +10,23 @@ const Navbar = () => {
           <img src={Logo} alt="logo" />
         </div>
         <div className="links">
-          <Link className="link" to="/?cat=art">
-            <h6>ART</h6>
+          <Link className="link" to="/?cat=Destinations">
+            <h6>Destinations</h6>
           </Link>
-          <Link className="link" to="/?cat=science">
-            <h6>SCIENCE</h6>
+          <Link className="link" to="/?cat=Wild Life">
+            <h6>Wild Life</h6>
           </Link>
-          <Link className="link" to="/?cat=techonology">
-            <h6>TECHONOLOGY</h6>
+          <Link className="link" to="/?cat=Bucket List">
+            <h6>Bucket List</h6>
           </Link>
-          <Link className="link" to="/?cat=cinema">
-            <h6>CINEMA</h6>
+          <Link className="link" to="/?cat=Hike">
+            <h6>Hike</h6>
           </Link>
-          <Link className="link" to="/?cat=design">
-            <h6>DESIGN</h6>
+          <Link className="link" to="/?cat=Beaches">
+            <h6>Beaches</h6>
           </Link>
           <Link className="link" to="/?cat=food">
-            <h6>FOOD</h6>
+            <h6>Gallery</h6>
           </Link>
           <span>Sri Varsh</span>
           <span>Logout</span>
