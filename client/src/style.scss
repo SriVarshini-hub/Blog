@@ -357,16 +357,16 @@
             justify-content: space-between;
 
             :first-child {
-              color: teal;
-              background-color: white;
-              border: 1px solid teal;
+              color: rgb(88, 93, 93);
+              background-color: #e8e8ae;
+              border: 1px solid #e8e8ae;
               padding: 3px 5px;
               margin-top: 6px;
             }
             :last-child {
-              color: teal;
-              background-color: white;
-              border: 1px solid teal;
+              color: rgb(88, 93, 93);
+              background-color: #e8e8ae;
+              border: 1px solid #e8e8ae;
               padding: 3px 5px;
               margin-top: 6px;
             }
@@ -375,7 +375,7 @@
             display: flex;
             align-items: center;
             gap: 2px;
-            color: teal;
+            color: rgb(111, 110, 106);
           }
         }
       }
